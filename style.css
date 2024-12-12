@@ -88,6 +88,10 @@ a:visited{
     margin-bottom: 28px;
 }
 
+.white-horizontal-separator{
+    border: 1px white solid;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -399,7 +403,6 @@ a:visited{
 
 .team-members{
     width: 100%;
-    height: 725px;
     display: flex;
     flex-direction: column;
 }
@@ -423,11 +426,16 @@ a:visited{
 .tm-head-subcontainer{
     position: relative;
     display: flex;
+    align-items: end;
 }
 
 .member-image{
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.tm-head-right-container{
+    padding-left: 15px;
 }
 
 .member-linkedin-button{
@@ -449,4 +457,186 @@ a:visited{
     width: 269px;
     border-radius: 14px;
     border: 0px transparent;
+}
+
+.contact-main-subcontainer{
+    margin-top: 40px;
+    width: 100%;
+    height: 773px;
+    border-radius: 45px;
+    padding: 60px 100px 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.contact-us-left-container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-type{
+    width: 100%;
+    display: flex;
+}
+
+.contact-type-name{
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-part-struct{
+    margin-top: 40px;
+}
+
+.contact-part-name{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact-part-field{
+    width: 70%;
+    height: 59px;
+    border-radius: 14px;
+    border: 0.5px black solid;
+    padding: 18px 30px;
+    font-size: 18px;
+}
+
+.letter-field{
+    height: 190px;
+}
+
+.send-message-button{
+    margin-top: 40px;
+    width: 70%;
+    height: 68px;
+    border-radius: 14px;
+    border: 0px transparent solid;
+}
+
+.contact-us-right-container{
+    width: 30%;
+    height: 100%;
+}
+
+.contact-us-image{
+    position: absolute;
+    right: -350px;
+}
+
+.footer-container{
+    margin-top: 140px;
+    border-radius: 45px 45px 0px 0px;
+    padding: 55px 60px 50px 60px;
+}
+
+.footer-upper-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bottom-navigation{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-link:link{
+    color: white;
+    text-decoration: underline;
+}
+
+.bottom-link:visited{
+    color: white;
+    text-decoration: underline;
+}
+
+.social-media-links{
+    flex-basis: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-center-container{
+    margin-top: 66px;
+    display: flex;
+    width: 100%;
+    height: 185px;
+}
+
+.footer-center-left-container{
+    width: 40%;
+    padding-right: 150px;
+}
+
+.contact-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-head{
+    color: black;
+}
+
+.footer-center-right-container{
+    width: 60%;
+    height: 100%;
+    background-color: #292A32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    gap: 20px;
+}
+
+.contact-input-email{
+    width: 285px;
+    height: 67px;
+    border-radius: 14px;
+    border: 0.5px white solid;
+    background-color: transparent;
+    padding: 22px 35px;
+    font-size: 18px;
+    color: white;
+}
+
+.contact-input-button{
+    width: 249px;
+    height: 68px;
+    border-radius: 14px;
+    border: 0px transparent solid;
+}
+
+.footer-bottom-container{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.privacy-policy-link:link{
+    color: white;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.privacy-policy-link:visited{
+    color: white;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 400;
 }
